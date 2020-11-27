@@ -31,12 +31,15 @@ descontosindi = salario_total * 0.05
 salarioliqui = salario_total - desontoinss - descontosindi - descontoir
 
 print(f"""
-Salário Bruto : {salario_total}R$
-IR (11%) : {descontoir}R$
-INSS (8%) : {desontoinss}R$
-Sindicato ( 5%) : {descontosindi}R$
-Salário Liquido : {salarioliqui}R$
+Salário Bruto : {salario_total}R$   
+IR (11%) : {descontoir}R$          
+INSS (8%) : {desontoinss}R$        
+Sindicato ( 5%) : {descontosindi}R$ 
+Salário Liquido : {salarioliqui}R$  
 """)
 
-
+''' Uma coisa legal que da pra fazer com f-string é a formatação
+de casas após o ponto ,ex: #{salario_total:.2f} assim indica que você quer 2 
+casas após o ponto.a saida ficaria assim : Salário Bruto : xxxx.xxR$ é só detalhe
+no resto esta muito bom seu codigo broo parabens!'''
 
